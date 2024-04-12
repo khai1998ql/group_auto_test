@@ -12,7 +12,7 @@ from src.main.UltilPackage.conftest import init_browser
 
 def test_open_broweser(init_browser: WebDriver) -> None:
 
-    time.sleep(5)
+    time.sleep(10)
 
 def test_open_menu_setting(init_browser: WebDriver) -> None:
     print('Open menu setting')
